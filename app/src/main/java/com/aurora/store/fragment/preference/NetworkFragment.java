@@ -27,7 +27,7 @@ public class NetworkFragment extends PreferenceFragmentCompat implements SharedP
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
         getPreferenceManager().setSharedPreferencesName(Constants.SHARED_PREFERENCES_KEY);
-        setPreferencesFromResource(R.xml.preferences_network, rootKey);
+        setPreferencesFromResource(R.xml.preferences_network_discover, rootKey);
     }
 
     @Override
